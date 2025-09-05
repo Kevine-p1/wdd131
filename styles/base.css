@@ -1,0 +1,85 @@
+:root {
+   
+  --color-primary: #896C6C;    
+  --color-secondary: #E5BEB5;  
+  --color-accent: #EEE6CA;     
+
+  --color-bg: #F5FAE1 ;
+  --color-text: #ffffff;
+}
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+  background-color: var(--color-primary);
+}
+#course-title{
+    display: block;
+    align-self: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+nav{
+    background-color: #541212;
+    opacity: 50%;
+    padding: 1em;
+    width: 100%;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.links:hover{
+
+    color: var(--color-accent);
+}
+h1{
+    color: #EEE6CA;
+    text-align: center;
+    font-size: 2.2em;
+}
+h2{
+     background-color: #541212;
+     opacity: 50%;
+     font-size: 1.2em;
+     font-weight: bold;
+}
+.one{
+    width: 60%;
+    display: flex; 
+    flex-direction: column;  
+    align-items: center; 
+}
+.cards-container{
+    display:flex;
+    justify-content: space-between;
+
+}
+#profile{
+    float: right;
+    height:10rem ;
+}
+#flag{
+    float: right;
+    height: 8rem;
+}
+.card a{
+    color: var(--color-accent);
+    text-decoration: none;
+}
+.card a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #541212;
+    opacity: 50%;
+    padding: 1em;
+    text-align: center;
+}
