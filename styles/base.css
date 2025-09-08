@@ -69,6 +69,7 @@ h2{
     align-items: center;
     border: 2px solid  #541212;
    border-radius: 5%; 
+   padding-left: 1.5rem;
 
 }
 .two{
@@ -104,7 +105,8 @@ h2{
     margin-right: 2rem;
 }
 .card p{
-    font-family: Merriweather, serif;
+   color: #EEE6CA;
+    font-size: 1.1em;
 }
 figure{
     float: right;
