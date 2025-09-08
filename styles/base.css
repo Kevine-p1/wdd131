@@ -86,7 +86,7 @@ h2{
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
 .about h2{
     text-align: center;
@@ -100,6 +100,11 @@ h2{
 #profile{
     float: right;
     height:9rem ;
+    width: 9rem;
+    margin-right: 2rem;
+}
+.card p{
+    font-family: Merriweather, serif;
 }
 figure{
     float: right;
