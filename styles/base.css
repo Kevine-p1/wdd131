@@ -13,10 +13,18 @@ body {
   line-height: 1.5;
   color: var(--color-text);
   background-color: var(--color-primary);
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh; 
 }
+
 #course-title{
     display: block;
-    align-self: center;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-secondary);
 }
 .container{
     display: flex;
@@ -40,6 +48,9 @@ nav{
 
     color: var(--color-accent);
 }
+main{
+    flex: 1;
+}
 h1{
     color: #EEE6CA;
     text-align: center;
@@ -52,27 +63,63 @@ h2{
      font-weight: bold;
 }
 .one{
-    width: 60%;
+    width: 40%;
     display: flex; 
     flex-direction: column;  
-    align-items: center; 
+    align-items: center;
+    border: 2px solid  #541212;
+   border-radius: 5%; 
+
+}
+.two{
+   width: 30%;
+   border: 2px solid  #541212;
+   border-radius: 7%;
+   display: inline-block; 
+   
+   text-align: left;
+  text-align: center
+}
+.two ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-top: 7rem;
+}
+.about h2{
+    text-align: center;
+    margin-top: 1rem;
 }
 .cards-container{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 #profile{
     float: right;
-    height:10rem ;
+    height:9rem ;
+}
+figure{
+    float: right;
+    /*height: 8rem;*/
+    padding-bottom: 3rem;
 }
 #flag{
-    float: right;
     height: 8rem;
+}
+figcaption{
+    font-size: 14px;
+  color: #555;           
+  margin-top: 5px;          
+  font-style: italic; 
 }
 .card a{
     color: var(--color-accent);
     text-decoration: none;
+    font-size: large;
+    font-weight: bold;
 }
 .card a:hover{
     text-decoration: underline;
