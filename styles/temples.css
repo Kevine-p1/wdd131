@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+    .container{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .img-container{
+        display:flex ;
+        flex-direction: column;
+    }
+   .temple-links{
+    display: none !important;
+   }
+   .temple-links.active{
+    display: flex;
+    flex-direction: column;
+   }
+   .hamburger{
+    display: block !important;
+   }
+   button{
+    color:#E5BEB5;
+   }
+    
+   
+     
+    
+}

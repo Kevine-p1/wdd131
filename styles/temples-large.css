@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temple-links a{
+    color:  var(--color-accent);
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.temple-links a:hover{
+
+    color: white;
+}
+.hamburger{
+
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.temple-links{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+}
