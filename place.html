@@ -1,0 +1,60 @@
+<!Doctype html>
+<html lang="en" >
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 – Dynamic Web Fundamentals –Kevine Uwase</title>
+        <meta name="description" content="kevine|WDD 131 – Dynamic Web Fundamentals|landing page">
+        <meta name="author" content="Kevine Uwase ">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/temples.css">
+        <link rel="stylesheet" href="styles/temples-large.css">
+        <link rel="stylesheet" href="styles/place.css">
+        <script src="scripts/getdates.js" defer></script>
+        <script src="scripts/temples.js" defer></script>
+        <script src="scripts/place.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Kigali - Rwanda</h1>
+            <h3>A land of a thousand hills</h3>
+        </header>
+        <main class="hero">
+            <div class="hero-img">
+              <!--<img src="images/Rwanda.webp" alt="Kigali city" class="hero">-->
+            </div>
+            <section class="card data-card">
+                <h2>Data</h2>
+                <ul>
+                    <li><strong>Area:</strong> 26,338 sq km</li>
+                    <li><strong>Area:</strong> 26,338 sq km</li>
+                    <li><strong>Population:</strong> ~13.6 million (country)</li>
+                    <li><strong>Capital:</strong> Kigali</li>
+                    <li><strong>Languages:</strong> Kinyarwanda, English, French</li>
+                    <li><strong>Currency:</strong> Rwandan Franc (RWF)</li>
+                    <li><strong>Time Zone:</strong> UTC+2</li>
+                    <li><strong>Calling Code:</strong> +250</li>
+                    <li><strong>Internet TLD:</strong> .rw</li>
+              </ul>
+
+            </section>
+            <section class="card weather-card">
+              <h2>Weather <span class="icon">⛅</span></h2> 
+              <ul>
+                 <li>Temperature: <span id="temp">23 °C</span></li>
+                 <li>Conditions: Partly Cloudy</li>
+                 <li>Wind: 8 km/h</li>
+                 <li>Humidity: 60 %</li>
+             </ul> 
+            </section>
+        </main>
+        <footer>
+             <p>©<span id="currentyear">2025</span>  Kevine Uwase|Rwanda</p>
+             <p id="lastmodified"></p>
+             <section id="weather">
+                 <p>Temperature: 40 °F</p>
+                 <p>Wind Speed: 10 mph</p>
+                 <p>Wind Chill: <span id="windchill"></span></p>
+             </section>
+        </footer>
+    </body>
