@@ -4,6 +4,7 @@ html,body{
 }
 body{
     min-height:100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     margin-bottom: 5rem;
 }
 h1{
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
 }
 h3{
     text-align: center;
@@ -71,6 +72,10 @@ h3{
 footer{
     margin-top: 5rem;
 }
+.data-card::after{
+   content: "";
+   display: none;
+}
 @media screen and (max-width: 600px) {
      
    .hero{
@@ -91,4 +96,11 @@ footer{
        min-height: 60vh;   
        width: 100%;
 }
+    .data-card::after{
+       content: "";
+       display: block;
+       height: 1px;
+       background: #ccc;
+       margin: 1rem 0;
+    }
 }
