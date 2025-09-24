@@ -29,7 +29,7 @@ h3{
 
  
 .hero-img{
- background-image: url('/images/kigali.webp');
+ background-image:url("../images/kigali.webp");
   background-size: cover;        
   background-position: center;    
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ footer{
       margin: 1rem 0;
     }
     .hero-img {
-       background-image: url('/images/kigali-small.webp') ;
+      background-image: url("../images/kigali-small.webp");
        background-size: cover;        
        background-position: center;    
        background-repeat: no-repeat;
