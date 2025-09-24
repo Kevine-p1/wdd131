@@ -25,7 +25,7 @@ h3{
 
  
 .hero-img{
- background-image: url('images/25-Top-Attractions-in-Rwanda-2.webp') !important;
+ background-image: url('/images/Rwanda.webp');
   background-size: cover;        
   background-position: center;    
   background-repeat: no-repeat;
@@ -73,35 +73,22 @@ footer{
 }
 @media screen and (max-width: 600px) {
      
-    .hero{
-      position:relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      
+   .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+    .card {
+      position: static;
+      max-width: 90%;
+      margin: 1rem 0;
     }
     .hero-img {
-        height: 60vh;  
-        background-image: url('images/25-Top-Attractions-in-Rwanda-2-small.webp');
-        background-position: top center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .data-card, .weather-card {
-        position: static;
-        max-width: 100%;
-        margin: 0 0 1rem 0;
-        text-align: center;
-    }
-
-    .data-card h2,
-    .weather-card h2 {
-        margin: 0 auto;
-    }
-
-    .data-card ul,
-    .weather-card ul {
-        text-align: center;
-    }
+       background-image: url('/images/Rwanda-small.webp') ;
+       background-size: cover;        
+       background-position: center;    
+       background-repeat: no-repeat;
+       min-height: 60vh;   
+       width: 100%;
+}
 }
