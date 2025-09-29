@@ -1,0 +1,112 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temple-links a{
+    color:  var(--color-accent);
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.temple-links a:hover{
+
+    color: white;
+}
+.hamburger{
+
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.temple-links{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+}
+#temple{
+    font-size: 2rem;
+    background-color: #896C6C ;
+    text-align: center;
+    color: #EEE6CA;
+    
+}
+
+/* grid for temple cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.temple-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(84, 74, 74, 0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.temple-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+.temple-card p,
+.temple-card h3 {
+  color: #111;       /* near-black dark gray */
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container{
+        flex-direction: row;
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .img-container{
+        display:flex ;
+        flex-direction: column;
+    }
+   .temple-links{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top:60px;
+    right:0;
+    left:0;
+    z-index: 1000;
+    background: #fff;
+    opacity: 50%;
+    padding: 1rem;
+   }
+   .temple-links.active{
+    display: flex;
+    flex-direction: column;
+   }
+   .hamburger{
+    display: block;
+    cursor: pointer;
+   }
+   button{
+    color:#c2a8a2;
+   }
+   #temple{
+    text-align: center;
+   }
+    
+   
+     
+    
+}
