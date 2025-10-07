@@ -43,7 +43,7 @@ form > * {
     background-color: var(--color-accent);
 }
 fieldset{
-    width: 50%;
+    width: 25%;
     border-radius: 5px;
     padding: 1rem;
 }
