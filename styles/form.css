@@ -42,3 +42,8 @@ form > * {
 #submitBtn:hover {
     background-color: var(--color-accent);
 }
+fieldset{
+    width: 50%;
+    border-radius: 5px;
+    padding: 1rem;
+}
