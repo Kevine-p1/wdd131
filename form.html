@@ -1,0 +1,70 @@
+<!Doctype html>
+<html lang="en" >
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 – Dynamic Web Fundamentals –Kevine Uwase</title>
+        <meta name="description" content="kevine|WDD 131 – Dynamic Web Fundamentals|landing page">
+        <meta name="author" content="Kevine Uwase ">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/form.css">
+        <script src="scripts/form.js" defer></script>
+        <script src="scripts/getdates.js" defer></script>
+    </head>
+    <body>
+      <form action="review.html" method="get">
+         <label for="productSelect">Product Name:</label><br>
+         <select id="productSelect" name="product" required>
+             <option value="" disabled selected>Select a Product ...</option> 
+
+         </select> <br>
+         <label>Overall Rating:</label><br>
+         <input type="radio" id="star1" name="rating" value="1" required>
+         <label for="star1">☆</label>
+
+         <input type="radio" id="star2" name="rating" value="2">
+         <label for="star2">☆☆</label>
+
+         <input type="radio" id="star3" name="rating" value="3">
+         <label for="star3">☆☆☆</label>
+
+         <input type="radio" id="star4" name="rating" value="4">
+         <label for="star4">☆☆☆☆</label>
+
+         <input type="radio" id="star5" name="rating" value="5">
+         <label for="star5">☆☆☆☆☆</label> <br>
+
+         <label for="installationDate">Date of Installation:</label>
+         <input type="date" id="installationDate" name="installationDate" required>
+         <fieldset>
+             <legend>Useful Features:</legend>
+
+             <input type="checkbox" id="feature1" name="usefulFeatures" value="Fast Performance">
+             <label for="feature1">Fast Performance</label><br>
+
+             <input type="checkbox" id="feature2" name="usefulFeatures" value="Easy Setup">
+             <label for="feature2">Easy Setup</label><br>
+
+             <input type="checkbox" id="feature3" name="usefulFeatures" value="User Friendly">
+             <label for="feature3">User Friendly</label><br>
+
+             <input type="checkbox" id="feature4" name="usefulFeatures" value="Durable Design">
+             <label for="feature4">Durable Design</label><br>
+
+             <input type="checkbox" id="feature5" name="usefulFeatures" value="Affordable">
+             <label for="feature5">Affordable</label>
+         </fieldset>
+         <label for="writtenReview">Written Review:</label><br>
+         <textarea id="writtenReview" name="writtenReview" rows="5" cols="50" placeholder="Write your review here..."></textarea> <br>
+
+         <label for="userName">User Name:</label><br>
+         <input type="text" id="userName" name="userName" placeholder="Enter your name"> <br>
+         <input type="submit" value="Post a Review" id="submitBtn">
+
+      </form>
+      <footer>
+        <p>©<span id="currentyear">2025</span>  Kevine Uwase|Rwanda</p>
+        <p id="lastmodified"></p>
+      </footer> 
+    </body>
+</html>
